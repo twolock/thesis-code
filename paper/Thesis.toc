@@ -1,0 +1,21 @@
+\contentsline {section}{Introduction}{1}{section*.2}
+\contentsline {subsection}{Background}{1}{section*.3}
+\contentsline {subsection}{Research Question}{4}{section*.4}
+\contentsline {subsection}{Literature Review}{5}{section*.5}
+\contentsline {subsection}{Conceptual Model}{7}{section*.6}
+\contentsline {section}{Methods}{8}{section*.7}
+\contentsline {subsection}{Data Sources}{9}{section*.8}
+\contentsline {subsubsection}{Outcome Data}{9}{section*.9}
+\contentsline {subsubsection}{Exposure Data}{10}{section*.10}
+\contentsline {subsubsection}{Covariate Data}{11}{section*.11}
+\contentsline {subsection}{Statistical Analysis}{12}{section*.12}
+\contentsline {subsection}{Sensitivity Analyses}{15}{section*.13}
+\contentsline {section}{Results}{15}{section*.14}
+\contentsline {subsection}{Outcome Variables}{15}{section*.15}
+\contentsline {subsection}{Exposure Variables}{18}{section*.16}
+\contentsline {subsection}{Estimates}{18}{section*.17}
+\contentsline {subsubsection}{Main Analysis}{18}{section*.18}
+\contentsline {subsubsection}{Secondary Analysis}{22}{section*.19}
+\contentsline {subsubsection}{Sensitivity Analyses}{25}{section*.20}
+\contentsline {section}{Discussion}{26}{section*.21}
+\contentsline {section}{References}{30}{section*.22}

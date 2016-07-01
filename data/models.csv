@@ -1,0 +1,21 @@
+model_i,model_name,sex,likelihood,exposure,covar,year_var
+1,Baseline,1,poisson,indicator,,continuous
+2,Baseline,2,poisson,indicator,,continuous
+3,Structural,1,poisson,indicator,"age,test_year",continuous
+4,Structural,2,poisson,indicator,"age,test_year",continuous
+5,Final,1,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+6,Final,2,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+7,Negative binomial comparison,1,nbinom,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+8,Negative binomial comparison,2,nbinom,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+9,ZIP,1,zipoisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+10,ZIP,2,zipoisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+11,Binary,1,poisson,binary,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+12,Binary,2,poisson,binary,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+13,Supplement,1,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+14,Supplement,2,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+15,Combined,1,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+16,Combined,2,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+17,Years,1,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+18,Years,2,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+19,States,1,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+20,States,2,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous

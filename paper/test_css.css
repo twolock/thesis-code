@@ -1,0 +1,27 @@
+h1 {
+    color: #048790;
+}
+h2 {
+    color: #048790;
+}
+h3 {
+    font-style: italic;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: #e74c3c;
+}
+.caption {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+body {
+    font-size: 15px;
+}

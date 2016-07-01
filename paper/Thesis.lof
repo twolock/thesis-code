@@ -1,0 +1,41 @@
+\begin{figure}
+
+\centering
+\includegraphics{Conceptual_model.png}
+\caption{Conceptual model of PTP requirement as suicide prevention tool}
+
+\end{figure}
+\begin{figure}
+
+\centering
+\includegraphics{Thesis_files/figure-latex/age-plot-1.pdf}
+\caption{Ratio of firearm suicide mortality in age bin \(x\) to age bin
+15 in 2013 by sex}
+
+\end{figure}
+\begin{figure}
+
+\centering
+\includegraphics{Thesis_files/figure-latex/zero-hist-1.pdf}
+\caption{Distribution of firearm mortality rates across counties in
+2013}
+
+\end{figure}
+\begin{figure}
+
+\centering
+\includegraphics{Thesis_files/figure-latex/RR-plot-1.pdf}
+\caption{Estimated relative risk of firearm suicide death by years since
+PTP passage for men and women. Point estimates are circles and 95\%
+confidence intervals are line ranges.}
+
+\end{figure}
+\begin{figure}
+
+\centering
+\includegraphics{Thesis_files/figure-latex/supplement-RR-plot-1.pdf}
+\caption{Estimated relative risk of non-firearm suicide death by years
+since PTP passage for men and women. Point estimates are circles and
+95\% confidence intervals are line ranges.}
+
+\end{figure}

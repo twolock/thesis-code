@@ -1,0 +1,59 @@
+variable,report.name,sort.order,num.val,in.table
+C,Intercept,1,,1
+test_year,Scaled year,2,,1
+log.pop.dens,Ln(population density),3,,1
+unemployed,Unemployement,4,,1
+edu_ba,College education,5,,1
+income.z,Median household income,6,,1
+age_15,Age bin 15,7,15,0
+age_20,Age bin 20,8,20,1
+age_25,Age bin 25,9,25,0
+age_30,Age bin 30,10,30,1
+age_35,Age bin 35,11,35,0
+age_40,Age bin 40,12,40,1
+age_45,Age bin 45,13,45,0
+age_50,Age bin 50,14,50,1
+age_55,Age bin 55,15,55,0
+age_60,Age bin 60,16,60,1
+age_65,Age bin 65,17,65,0
+age_70,Age bin 70,18,70,1
+age_75,Age bin 75,19,75,0
+age_80,Age bin 80,20,80,1
+age_85,Age bin 85,21,85,0
+years_since_policy_1,PTP year 1,22,1,1
+years_since_policy_2,PTP year 2,23,2,1
+years_since_policy_3,PTP year 3,24,3,1
+years_since_policy_4,PTP year 4,25,4,1
+years_since_policy_5,PTP year 5,26,5,1
+years_since_policy_6,PTP year 6,27,6,0
+years_since_policy_7,PTP year 7,28,7,0
+years_since_policy_8,PTP year 8,29,8,0
+years_since_policy_9,PTP year 9,30,9,0
+years_since_policy_10,PTP year 10,31,10,1
+years_since_policy_11,PTP year 11,32,11,0
+years_since_policy_12,PTP year 12,33,12,0
+years_since_policy_13,PTP year 13,34,13,0
+years_since_policy_14,PTP year 14,35,14,0
+years_since_policy_15,PTP year 15,36,15,0
+years_since_policy_16,PTP year 16,37,16,0
+years_since_policy_17,PTP year 17,38,17,0
+years_since_policy_18,PTP year 18,39,18,0
+years_since_policy_19,PTP year 19,40,19,0
+years_since_policy_20,PTP year 20,41,20,1
+years_since_policy_21,PTP year 21,42,21,0
+years_since_policy_22,PTP year 22,43,22,0
+years_since_policy_23,PTP year 23,44,23,0
+years_since_policy_24,PTP year 24,45,24,0
+years_since_policy_25,PTP year 25,46,25,0
+years_since_policy_26,PTP year 26,47,26,0
+years_since_policy_27,PTP year 27,48,27,0
+years_since_policy_28,PTP year 28,49,28,0
+years_since_policy_29,PTP year 29,50,29,0
+years_since_policy_30,PTP year 30,51,30,0
+years_since_policy_31,PTP year 31,52,31,0
+years_since_policy_32,PTP year 32,53,32,0
+years_since_policy_33,PTP year 33,54,33,0
+years_since_policy_34,PTP year 34,55,34,0
+years_since_policy_35,PTP year 35,56,35,1
+has.law,PTP binary,56,,0
+ll,Log-likelihood,57,,1
