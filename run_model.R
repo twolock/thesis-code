@@ -193,7 +193,7 @@ s_c_i <- as.integer(as.factor(data.subset[,mean(state), by=mcnty][,V1]))-1
 log_theta <- log(1)
 
 data.subset[, dep.var := firearm_deaths]
-if (model.dt[model_i==model.i, model_name] == 'Supplement')
+if (model.dt[model_i==model.i, model_name] %in% c('Supplement', 'State year'))
   data.subset[,dep.var := other_deaths]
 if (model.dt[model_i==model.i, model_name] == 'Combined')
   data.subset[,dep.var := firearm_deaths + other_deaths]
@@ -204,6 +204,9 @@ theta_u <- 200
 theta_l <- 1e-12
 
 logit_prob_z <- gen.logit(0.5)
+
+t_B_s <- rep(0, length(unique(s_i)))
+t_i <- as.vector(data.subset[,test_year])
 
 setwd('/homes/twolock/thesis/code/')
 
@@ -237,9 +240,14 @@ if (grepl('zi', model.name))
   params.in$logit_prob_z <- gen.logit(0.5)
 if (grepl('nbinom', model.name))
   params.in$logit_theta <- 2
+if (grepl('state_slope', model.name)) {
+  data.in$t_i <- t_i
+  params.in$t_B_s <- t_B_s
+  params.in$log_SD_t <- log(1)
+}
 
 random.in <- NULL
-random.in <- c('B_s', 'B_c')
+random.in <- c('B_s', 'B_c', 't_B_s')
 map.in <- NULL
 # map.in$B_c <- as.factor(rep(NA, length(B_c)))
 # map.in$log_SD_c <- as.factor(NA)

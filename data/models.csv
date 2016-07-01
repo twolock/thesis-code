@@ -19,3 +19,7 @@ model_i,model_name,sex,likelihood,exposure,covar,year_var
 18,Years,2,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
 19,States,1,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
 20,States,2,poisson,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+21,State year,1,poisson_state_slope,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+22,State year,2,poisson_state_slope,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+23,State year firearm,1,poisson_state_slope,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
+24,State year firearm,2,poisson_state_slope,indicator,"age,test_year,log.pop.dens,unemployed,edu_ba,income.z",continuous
